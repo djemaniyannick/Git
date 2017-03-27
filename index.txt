@@ -1,0 +1,236 @@
+// creation de la premiere page de mon site sudev avec Boostrap
+
+
+
+
+<! DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initialscale=1. 0">
+
+<meta name="description" content="etude_bootstrap">
+
+<meta name="author" content="cabrel ngako92">
+
+<link rel="shortcut icon" href="bootstrap/icon/icontilt.png">
+
+<title>Starter_projet_bootstrap</title>
+
+<!-- Bootstrap core CSS -->
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+
+<link href="bootstrap/css/starter-template1.css" rel="stylesheet">
+
+<link href="bootstrap/css/bootcss.css" rel="stylesheet">
+
+			<!-- HTML5 shim and Respond. js IE8 support of HTML5 elementsand media queries -->
+
+			<!--[ifltIE9]>
+
+			<script src="../../assets/js/html5shiv.js"></script>
+
+			<script src="../../assets/js/respond.min.js"></script>
+
+			<![endif]-->
+
+</head>
+
+<body>
+
+		
+
+			
+
+			
+
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"  aria-expanded="false" aria-controls="navbar">
+
+                        <span class="sr-only">Toggle navigation</span>
+
+                        <span class="icon-bar"></span>
+
+                        <span class="icon-bar"></span>
+
+                        <span class="icon-bar"></span>
+
+                    </button>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1" aria-expanded="false" aria-controls="navbar">
+
+                        <span class="sr-only">Toggle navigation</span>
+
+                        <span class="icon-bar"></span>
+
+                        <span class="icon-bar"></span>
+
+                        <span class="icon-bar"></span>
+
+                    </button>
+
+                    <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;Accueil</a>
+
+                    <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;About</a>
+
+                    <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Contact</a>
+
+                </div>
+
+                <div id="navbar" class="navbar-collapse collapse">
+
+                    <div class='navbar-form navbar-right'>
+
+                    	<form method="post" action="recherche. php">      
+
+							<div class="form-group">        
+
+								<input class="input-sm form-control" placeholder="Recherche" type="search">        
+
+								<button type="submit" class="btn btn-primary btn-sm">
+
+								<span class="glyphicon glyphicon-search"></span> Search</button> 
+
+							</div>
+
+							<button name='connexion' class='btn btn-success btn-sm'>S'inscrire</button>
+
+                    		<button name='connexion' class='btn btn-success btn-sm'>Se connecter</button>    
+
+						</form>
+
+                    </div>
+
+                </div>
+
+		      <!--/.navbar-collapse -->
+
+		    </div>
+
+	    </nav>
+
+			
+
+			<div class="container-fluid navbar-collapse collapse" id="navbar1">
+
+			<div class="row">
+
+				<nav class="col-lg-3 col-md-3 col-sm-3 col-xm-3 " style="line-height: 104px;padding-top:120px;">
+
+					<img src="bootstrap/icon/icontill.png">
+
+				</nav>
+
+				<section class="col-lg-9 col-md-9 col-sm-9">
+
+					<div class="row">
+
+						<aside class="col-lg-12 col-md-12 col-sm-12">
+
+							Aside 1<br>Aside 2
+
+						</aside>
+
+						<aside class="col-lg-12 col-md-12 col-sm-12" style="font-size: 20px;padding-bottom:10px">
+
+							<div class="row">
+
+								<div class="col-lg-2 col-md-2 col-sm-2">
+
+									
+
+								</div>
+
+								<div class="col-lg-2 col-md-2 col-sm-2">
+
+									<a href="">Accueil</a>
+
+								</div>
+
+								<div class="col-lg-2 col-md-2 col-sm-2">
+
+									<a href="">Cours</a>
+
+								</div>
+
+								<div class="col-lg-2 col-md-2 col-sm-2">
+
+									<a href="">Exercices</a>
+
+								</div>
+
+								<div class="col-lg-2 col-md-2 col-sm-2">
+
+									<a href="">Projets</a>
+
+								</div>
+
+								<div class="col-lg-2 col-md-2 col-sm-2">
+
+									<a href="">Forum</a>
+
+								</div>
+
+							</div>
+
+						</aside>
+
+					</div>
+
+				</section>
+
+			</div>
+
+		</div>
+
+			
+
+			<div class="row" style=" padding-top:10px;padding-left:5px;padding-right:5px; border: 1px  #A48654;">
+
+					<div class="col-lg-3 col-md-3">3 colonnes</div>
+
+					<div class="col-lg-3 col-md-3">3 colonnes</div>
+
+					<div class="col-lg-3 col-md-3">3 colonnes</div>
+
+					<div class="col-lg-3 col-md-3">3 colonnes</div>
+
+            </div>
+
+			
+
+			<div class="row"></div>
+
+			<div class="col-lg-4 col-md-4"> footer</div>
+
+			<div class="col-lg-4 col-md-4">footer2</div>
+
+			<div class="col-lg-4 col-md-4">footer3</div>
+
+		</div>	
+
+		</div><!--/.container -->
+
+		<!-- Bootstrap core JavaScript================================================== -->
+
+		<!-- Placed at the end of the document so the pages load faster-->
+
+		<script src="bootstrap/js/jquery-1.11.2.min.js"></script>
+
+		<script src="bootstrap/js/bootstrap.min.js"></script></body>
+
+</html>
