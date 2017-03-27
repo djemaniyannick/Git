@@ -161,6 +161,10 @@
 
 								</div>
 
+                                                              <div class="col-lg-2 col-md-2 col-sm-2">
+                                                                      <a href="">matieres</a>
+                                                                   </div>
+
 								<div class="col-lg-2 col-md-2 col-sm-2">
 
 									<a href="">Cours</a>
