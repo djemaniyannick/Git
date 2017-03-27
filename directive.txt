@@ -99,7 +99,17 @@
 
 		    </div>
 
-			
+		<div class="row">
+                              <div class="span4">4 colonnes</div>
+                              <div class="span8">8 colonnes</div>
+                          <form class="form-search">
+                              <div class="input-append">
+                              <input type="text" class="search-query">
+                              <button class="btn btn-primary"type="submit">Recherche</button>
+                            </div>
+                            </form>
+
+                         </div>	
 
 			     gestion de laffichage smarphones desktop laptop tablettes n importe quoi!!!!!</br>
 
