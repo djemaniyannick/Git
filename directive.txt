@@ -1,0 +1,130 @@
+// Bienvenu dans notre espace de cour 
+
+
+<! DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+
+<meta name="description" content="etude_bootstrap">
+
+<meta name="author" content="cabrel ngako92">
+
+<link rel="shortcut icon" href="bootstrap/icon/icontilt.png">
+
+<title>Starter_projet_bootstrap</title>
+
+<!-- Bootstrap core CSS -->
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+
+<link href="bootstrap/css/starter-template1.css" rel="stylesheet">
+
+			<!-- HTML5 shim and Respond. js IE8 support of HTML5 elementsand media queries -->
+
+			<!--[ifltIE9]>
+
+			<script src="../../assets/js/html5shiv.js"></script>
+
+			<script src="../../assets/js/respond.min.js"></script>
+
+			<![endif]-->
+
+</head>
+
+<body>
+
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+		<div class="container">
+
+		<div class="navbar-header">
+
+					<button type="button" class="navbar-toggle" datatoggle="collapse" data-target=".navbar-collapse">
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+
+					</button>
+
+					<a class="navbar-brand" href="#">Programmationen en c </a>
+
+		</div>
+
+			<div class="collapse navbar-collapse">
+
+				<ul class="nav navbar-nav">
+
+				<li class="active"><a href="#"> langage orientee objet java</a></li>
+
+				<li><a href="#about"> analyse numerique </a></li>
+
+				<li><a href="#contact"> base de donnee </a></li>
+
+				</ul>
+
+			</div>
+
+		
+
+		<!--/.nav-collapse-->
+
+		</div>
+
+		</div>
+
+		<div class="container">
+
+		    <div class="starter-template">
+
+					<h1>Bienvenu dans notre cour choisis</h1>
+
+					<p class="lead">nous serons ravi de vous monter de quoi nous sommes capable. 
+
+						<br> cela concerne tout les passionnes en informatique
+
+					</p>
+
+		    </div>
+
+			
+
+			     gestion de laffichage smarphones desktop laptop tablettes n importe quoi!!!!!</br>
+
+			 <div class="row">
+
+                  <div class="col-sm-4 col-xm-4 col-lg-4 col-md-4 ">Largeur 4</div>
+
+                  <div class="col-sm-8 col-xm-8 col-lg-8 col-md-8 ">Largeur 8</div>
+
+			  </div>
+
+			
+
+			
+
+			
+
+		</div><!--/.container -->
+
+		<!-- Bootstrap core JavaScript================================================== -->
+
+		<!-- Placed at the end of the document so the pages load faster-->
+
+		<script src="bootstrap/js/jquery-1.11.2.min.js"></script>
+
+		<script src="bootstrap/js/bootstrap.min.js"></script></body>
+
+</html>
